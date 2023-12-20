@@ -17,36 +17,23 @@ BoomBikes, a U.S.-based bike-sharing company, is addressing revenue decline due 
 
 ## Approach
 
-In this analysis, we utilized the 'day.csv' dataset from Bhoom Bikes to derive insights into the factors influencing bike rentals. The process began with an Exploratory Data Analysis (EDA), scrutinizing both categorical and numerical variables. Categorical variables like weather, season, weekday, and year revealed their impact on rental counts, providing valuable business insights. We conducted thorough data preprocessing, including the elimination of unnecessary variables and handling numerical and categorical data appropriately. The subsequent step involved building a multilinear regression model to predict bike rentals, considering temperature, weather conditions, and seasonal variations. Evaluation metrics, such as R-squared and Adjusted R-squared, were employed to gauge model performance, revealing a strong correlation and effectiveness in capturing the temporal trends. These findings serve as a foundation for Bhoom Bikes to refine business strategies, emphasizing optimal utilization of weather patterns, seasonal variations, and temperature influences on bike rentals.
+In this analysis, we utilized the 'day.csv' dataset from Boom Bikes to derive insights into the factors influencing bike rentals. The process began with an Exploratory Data Analysis (EDA), scrutinizing both categorical and numerical variables. Categorical variables like weather, season, weekday, and year revealed their impact on rental counts, providing valuable business insights. We conducted thorough data preprocessing, including the elimination of unnecessary variables and handling numerical and categorical data appropriately. The subsequent step involved building a multilinear regression model to predict bike rentals, considering temperature, weather conditions, and seasonal variations. Evaluation metrics, such as R-squared and Adjusted R-squared, were employed to gauge model performance, revealing a strong correlation and effectiveness in capturing the temporal trends. These findings serve as a foundation for Boom Bikes to refine business strategies, emphasizing optimal utilization of weather patterns, seasonal variations, and temperature influences on bike rentals.
 
 ## Conclusions
 
-### Categorical Variables Analysis:
-- Weather: Clear conditions correlate positively with increased bike rentals.
-- Season: Higher rentals are observed during summer and fall.
-- Weekday: Similar rental counts are seen across all weekdays.
-- Holiday: Lower rentals occur on holidays.
-- Year: More rentals are observed in 2019.
-- Month: Peak rentals are observed in September.
-- Numerical Variables Correlation:
+- Clear weather boosts bike rentals.
+- Summer and fall witness peak rentals.
+- Consistent rental counts on weekdays.
+- Reduced rentals on holidays.
+- 2019 sees more rentals.
+- September marks peak rental month.
+- Temperature crucial for rentals.
 
-### We find that Temperature exhibits the highest correlation with the target variable (bike count).
-
-### OLS results  indicates:
-- R-squared: 78.1%, suggesting the model explains a substantial portion of the variance.
-- Adj. R-squared: 77.8%, accounting for the number of predictors.
-- Significant Variables: Year, Holiday, Temperature, Windspeed, Season (Spring, Summer, Winter), and Weather (Mist) significantly influence bike rentals.
-- Temperature Influence: Temperature stands out as the most influential variable, with the highest coefficient value.
-
-### Temporal Analysis:
-- Over the years, there is a consistent increase in bike rental count.
-- September is highlighted as the month with the highest count of bike rentals.
-- Light snow and windspeed negatively impact bike rentals, leading to decreased counts under such conditions.
-
-### The model's high R-squared value indicates its effectiveness in explaining bike rental variability. The adjusted R-squared accounts for the number of predictors, providing a more reliable measure of model fit.
-
-## In conclusion, the analysis and regression results provide valuable insights for Bhoom Bikes, emphasizing the importance of temperature, seasonal trends, and avoiding unfavorable weather conditions to optimize bike rental counts and improve business planning.
-
+### Business Insights:
+   1. Optimize rentals during clear weather.
+   2. Leverage summer and fall for peak rentals.
+   3. Tailor strategies for holidays.
+   4. Recognize year-wise trends for planning.
 
 ## Technologies Used
 - Python: The primary programming language for data manipulation, analysis, and visualization.
@@ -66,7 +53,8 @@ This project is licensed under the MIT License by :
 
 [2] Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
 
-```@article{
+```
+@article{
 	year={2013},
 	issn={2192-6352},
 	journal={Progress in Artificial Intelligence},
