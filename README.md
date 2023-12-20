@@ -48,7 +48,7 @@ In this analysis, we utilized the 'day.csv' dataset from Bhoom Bikes to derive i
 ## In conclusion, the analysis and regression results provide valuable insights for Bhoom Bikes, emphasizing the importance of temperature, seasonal trends, and avoiding unfavorable weather conditions to optimize bike rental counts and improve business planning.
 
 
-## Technologies Uses
+## Technologies Used
 - Python: The primary programming language for data manipulation, analysis, and visualization.
 - NumPy: Used for numerical operations and efficient array handling.
 - Pandas: Employed for data manipulation, including data cleaning and preprocessing.
